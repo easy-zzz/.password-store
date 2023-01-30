@@ -5,7 +5,7 @@ prefix: "websites"
 name_from:
   - "url"
   - "username"
-welcome: "🧪 Creating Website login"
+welcome: "🧪 Создание логина для веб-сайта"
 attributes:
   - name: "url"
     type: "hostname"
@@ -18,4 +18,4 @@ attributes:
     min: 1
   - name: "password"
     type: "password"
-    prompt: "Password for the Website"
+    prompt: "Пароль для веб-сайта"

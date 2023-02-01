@@ -5,7 +5,7 @@ prefix: "websites"
 name_from:
   - "url"
   - "username"
-welcome: "🧪 Creating Website login"
+welcome: "🧪 Создание Website логина"
 attributes:
   - name: "url"
     type: "hostname"

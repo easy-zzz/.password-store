@@ -1,0 +1,25 @@
+---
+priority: 2
+name: "Личные Данные (паспорт)"
+prefix: "pasport"
+name_from:
+  - "authority"
+  - "application"
+welcome: "🧪 Личные Данные (паспорт)"
+attributes:
+  - name: "fio"
+    type: "string"
+    prompt: "ФИО"
+    min: 1
+  - name: "nomer"
+    type: "string"
+    prompt: "Номер паспорта"
+    min: 1
+  - name: "seriya"
+    type: "string"
+    prompt: "Серия паспорта"
+    charset: "0123456789"
+    min: 1
+    max: 64
+  - name: "comment"
+    type: "string"
